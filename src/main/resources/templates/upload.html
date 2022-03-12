@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tiedoston lataus</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}" />
+</head>
+<body>
+<h1>File upload demo</h1>
+<div class="col-xs-6">
+		<div class="jumbotron">
+   		 <div class="container">
+	<form class= "form" method="POST" action="/upload" enctype="multipart/form-data">
+		<input class="form-control" type="file" name="file" /><br/>
+		<input  type="submit" value="Submit" />
+		
+	</form>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
