@@ -61,7 +61,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- heroku deployment needs this dependency -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+ 		</dependency>
 	</dependencies>
+	
+
 
 	<build>
 		<plugins>
