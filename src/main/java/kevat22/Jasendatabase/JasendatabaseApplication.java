@@ -50,9 +50,9 @@ public class JasendatabaseApplication {
 		
 		
 			
-		jrepository.save( new Jasen("Anne","Pelin", "os1","00590","09456123","anne@anne.fi",yrepository.findByName("Y").get(0),arepository.findByName("J").get(0)));
-		jrepository.save( new Jasen("Janne","Melin", "os1","00590","09456123","janne@anne.fi",yrepository.findByName("A").get(0),arepository.findByName("O").get(0)));
-		jrepository.save( new Jasen("Sissi","Melin", "os1","00590","09456123","tanne@anne.fi",yrepository.findByName("A").get(0),arepository.findByName("O").get(0)));
+		jrepository.save( new Jasen("Jasen","Ykkönen", "os1","00520","09123456","jasen@ykkonen.fi",yrepository.findByName("Y").get(0),arepository.findByName("J").get(0)));
+		jrepository.save( new Jasen("Jasen","Kakkonen", "os2","00500","094112233","jasen@kakkonen.fi",yrepository.findByName("A").get(0),arepository.findByName("O").get(0)));
+		jrepository.save( new Jasen("Jasen","Kolmonen", "os3","00510","09223344","jasen@kolmonen.fi",yrepository.findByName("A").get(0),arepository.findByName("O").get(0)));
 		
 		
        		
