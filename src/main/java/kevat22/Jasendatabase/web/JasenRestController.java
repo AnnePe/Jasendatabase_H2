@@ -3,6 +3,7 @@ package kevat22.Jasendatabase.web;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -36,6 +37,7 @@ public class JasenRestController {
     }  
     
     //toimii, muista ettet vie id:tä postmanilla bodyssä
+    
     @PostMapping("jasenet")
     Jasen addJasen(@RequestBody Jasen addJasen) {
     	return jrepository.save(addJasen);
